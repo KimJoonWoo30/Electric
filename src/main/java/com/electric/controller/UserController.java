@@ -11,8 +11,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UserController {
 	private static Logger logger = LoggerFactory.getLogger(UserController.class);
 
+	
 	@RequestMapping(value = "/main", method = RequestMethod.GET)
 	public void loginGET() {
 		logger.info("login get");
+	}
+	
+	@RequestMapping(value = "/map", method = RequestMethod.POST)
+	public void mapGet() {
+		logger.info("map get");
 	}
 }
