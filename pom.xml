@@ -29,6 +29,15 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!-- JSON -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -42,7 +51,7 @@
 			<version>1.4</version>
 		</dependency>
 
-	
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
@@ -116,7 +125,7 @@
 			<artifactId>imgscalr-lib</artifactId>
 			<version>4.2</version>
 		</dependency>
-	
+
 		<!-- xerces xml파싱 한글지원 -->
 		<dependency>
 			<groupId>xerces</groupId>

@@ -9,12 +9,6 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <!-- holder.js link -->
-<script>
-	$(document).ready(function() {
-		$('#myCarousel').carousel('cycle');
-		$('#myCarousel2').carousel('cycle');
-	});
-</script>
 <style>
 body {
 	padding-top: 15px;
@@ -114,7 +108,7 @@ div h1 {
 				<div class="login-or">
 					<hr class="hr-or">
 				</div>
-				<form action="/user/map" method="post">
+				<form action="/" method="get">
 					<div class="form-group">
 						<label for="inputUsernameEmail">Username or email</label>
 						<input type="text" class="form-control" id="inputUsernameEmail" placeholder="admin">
