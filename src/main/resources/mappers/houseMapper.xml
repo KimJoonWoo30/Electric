@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.electric.mapper.HouseMapper">
+
+	<select id="getHouse" resultType="HouseVO">
+		select *
+		from HouseMaster
+		where
+		house_number = #{houseNumber}
+	</select>
+	
+	<select id="getUseList" resultType="int">
+		select use_elec
+		from realtimeinfo
+		where
+		house_number = #{houseNumber} and substring(date_set,1,8) = #{dTime};
+	</select>
+	
+	<select id="getCurrentList" resultType="int">
+		select use_elec
+		from realtimeinfo
+		where
+		house_number = #{houseNumber} and substring(date_set,1,8) = #{cTime};
+	</select>
+	
+</mapper>
+
+

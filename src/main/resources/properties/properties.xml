@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>common_code</comment>
+
+<!-- Common Code Definition -->
+<entry key="db.id">root</entry>
+<entry key="db.pw">root</entry>
+<entry key="db.url">jdbc:log4jdbc:mysql://localhost:3306/ecatchin?useSSL=false</entry>
+
+
+</properties>

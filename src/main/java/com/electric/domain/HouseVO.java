@@ -12,7 +12,6 @@ public class HouseVO {
 	int doubt;
 	String name;
 	String eType;
-	
 
 	public String geteType() {
 		return eType;

@@ -6,8 +6,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="/resources/js/jquery-3.2.1.js"></script>
 <!-- holder.js link -->
 <style>
 body {
